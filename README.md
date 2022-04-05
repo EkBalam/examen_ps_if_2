@@ -26,5 +26,5 @@ Precio: 3413.25
 ```
 ```sh
 Numero de lapices: 1600
-Su pago de: 3600.00
+Precio: 3600.00
 ```
