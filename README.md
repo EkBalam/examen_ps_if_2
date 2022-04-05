@@ -1,9 +1,11 @@
-# Examen If's 1
-La jornada de trabajo es de 48 horas, calcular el monto a pagar dada las horas trabajadas con el valor por hora que es de 80 pesos. 
-Mostrar su salario. La hora extra (despues de la 48) se paga 5% mas que la hora normal, si hay mas de 8 hrs extra cada hora adicional se paga 10% mas. 
-Sin embargo esta topado a un maximo de 60 hras, si sobre pasa las 60 hrs, se da un unico bono de 500.
-Todo es entero sin decimales.
+# Examen If's 2 el más fácil
+Determinar cuánto se debe pagar por una cantidad de lápices considerando que si son 500 o más, existe un descuento de 7%, 
+si son 1000 o más hay un descuento del 10%, y si son 1500 o más, aparte del descuento del 10% las cajas son gratis.
+Teniendo en cuenta que el costo por lápiz es de 2.50, y en cada caja caben 100 lapices el valor de cada caja es de 3.00.
+Recuerde que para 100 lapices se requiere 1 caja pero para 101 lapices 2 cajas. Los descuentos se hacen sobre el valor total incluyendo las cajas
 
+- **Puede utilizar math.ceil para redondear**
+- **Muestre siempre 2 decimales, puede guiarse de la siguiente linea print('{:.2f}'.format(variable))**
 - **El texto para pedir la entrada puede ser el que guste, pero solo se pide un numero entero**
 - **El texto para pedir la salida debe ser tal cual esta en el ejemplo**
 - **Escribe tu código en el archivo main.py**
@@ -11,18 +13,18 @@ Todo es entero sin decimales.
 
 # Ejemplos:
 ```sh
-Pedir el numero de horas trabajadas: 48
-Salario: 3840
+Numero de lapices: 499
+Precio: 1262.50
 ```
 ```sh
-Pedir el numero de horas trabajadas: 57
-Salario: 4512
+Numero de lapices: 999
+Precio: 2350.58
 ```
 ```sh
-Pedir el numero de horas trabajadas: 60
-Salario: 4864
+Numero de lapices: 1499
+Precio: 3413.25
 ```
 ```sh
-Pedir el numero de horas trabajadas: 69
-Salario: 5364
+Numero de lapices: 1600
+Su pago de: 3600.00
 ```
